@@ -47,3 +47,7 @@ RUN chmod +x start.sh
 
 EXPOSE 4445
 ENTRYPOINT ["./start.sh"]
+
+LABEL org.opencontainer.image.source=https://github.com/aesterisk/neon-proxy
+LABEL org.opencontainer.image.description="Serverless Postgres for everyone."
+LABEL org.opencontainer.image.licenses=Apache-2.0
